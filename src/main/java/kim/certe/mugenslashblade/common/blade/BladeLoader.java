@@ -1,7 +1,6 @@
-package kim.certe.mugenslashblade;
+package kim.certe.mugenslashblade.common.blade;
 
 
-import kim.certe.mugenslashblade.common.blade.BladeMuGen;
 import kim.certe.mugenslashblade.common.sa.SALoader;
 import mods.flammpfeil.slashblade.SlashBlade;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;

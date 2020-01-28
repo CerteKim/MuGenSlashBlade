@@ -6,8 +6,8 @@ Description: There was a severe problem during mod loading that has caused the g
 
 net.minecraftforge.fml.common.LoaderExceptionModCrash: Caught exception from MuGen SlashBlade (mugenslashblade)
 Caused by: java.lang.NoClassDefFoundError: kim/certe/mugenslashblade/common/Item/ItemTheSeed
-	at kim.certe.mugenslashblade.common.CommonProxy.preInit(CommonProxy.java:11)
-	at kim.certe.mugenslashblade.client.ClientProxy.preInit(ClientProxy.java:15)
+	at kim.certe.mugenslashblade.CommonProxy.preInit(CommonProxy.java:11)
+	at kim.certe.mugenslashblade.ClientProxy.preInit(ClientProxy.java:15)
 	at kim.certe.mugenslashblade.MuGenSlashBlade.preInit(MuGenSlashBlade.java:46)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)

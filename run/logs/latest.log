@@ -1,52 +1,53 @@
-[21:51:22] [main/INFO] [GradleStart]: Extra: []
-[21:51:22] [main/INFO] [GradleStart]: Found and added coremod: me.guichaguri.tickratechanger.TickrateChanger
-[21:51:22] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/Certe/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
-[21:51:22] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[21:51:22] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[21:51:22] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
-[21:51:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[21:51:22] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2847 for Minecraft 1.12.2 loading
-[21:51:22] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_212, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_212\jre
-[21:51:23] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
-[21:51:23] [main/ERROR] [FML]: Full: C:\Users\Certe\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
-[21:51:23] [main/ERROR] [FML]: Trimmed: c:/users/certe/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
-[21:51:23] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[21:51:23] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
-[21:51:24] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
-[21:51:24] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
-[21:51:24] [main/INFO] [FML]: Found a command line coremod : me.guichaguri.tickratechanger.TickrateChanger
-[21:51:24] [main/WARN] [FML]: The coremod me.guichaguri.tickratechanger.TickrateChanger does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[21:51:24] [main/INFO] [FML]: Ignoring missing certificate for coremod TickrateChanger (me.guichaguri.tickratechanger.TickrateChanger), as this is probably a dev workspace
-[21:51:24] [main/INFO] [FML]: Searching D:\repo\MuGenSlashBlade\run\.\mods for mods
-[21:51:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
-[21:51:24] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
-[21:51:24] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[21:51:24] [main/INFO] [GradleStart]: Injecting location in coremod me.guichaguri.tickratechanger.TickrateChanger
-[21:51:24] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[21:51:24] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[21:51:24] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[21:51:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[21:51:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[21:51:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[21:51:25] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
-[21:51:25] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[21:51:25] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[21:51:25] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[21:51:26] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[21:51:26] [main/INFO] [GradleStart]: Remapping AccessTransformer rules...
-[21:51:26] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[21:51:26] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[21:51:26] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[21:51:26] [main/INFO] [Tickrate Changer]: Applying ASM to Minecraft methods...
-[21:51:27] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player345
-[21:51:32] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
-[21:51:33] [Client thread/INFO] [FML]: -- System Details --
+[14:11:22] [main/INFO] [GradleStart]: Extra: []
+[14:11:22] [main/INFO] [GradleStart]: Found and added coremod: me.guichaguri.tickratechanger.TickrateChanger
+[14:11:22] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/Certe/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[14:11:22] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[14:11:22] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[14:11:22] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[14:11:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[14:11:22] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2847 for Minecraft 1.12.2 loading
+[14:11:22] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_212, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_212\jre
+[14:11:23] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[14:11:23] [main/ERROR] [FML]: Full: C:\Users\Certe\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[14:11:23] [main/ERROR] [FML]: Trimmed: c:/users/certe/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[14:11:23] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[14:11:23] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+[14:11:24] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[14:11:24] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[14:11:24] [main/INFO] [FML]: Found a command line coremod : me.guichaguri.tickratechanger.TickrateChanger
+[14:11:24] [main/WARN] [FML]: The coremod me.guichaguri.tickratechanger.TickrateChanger does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[14:11:24] [main/INFO] [FML]: Ignoring missing certificate for coremod TickrateChanger (me.guichaguri.tickratechanger.TickrateChanger), as this is probably a dev workspace
+[14:11:24] [main/INFO] [FML]: Searching D:\repo\MuGenSlashBlade\run\.\mods for mods
+[14:11:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[14:11:24] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[14:11:24] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[14:11:24] [main/INFO] [GradleStart]: Injecting location in coremod me.guichaguri.tickratechanger.TickrateChanger
+[14:11:24] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[14:11:24] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[14:11:24] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[14:11:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[14:11:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[14:11:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[14:11:26] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[14:11:26] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[14:11:26] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[14:11:26] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[14:11:26] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[14:11:26] [main/INFO] [GradleStart]: Remapping AccessTransformer rules...
+[14:11:26] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[14:11:26] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[14:11:26] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[14:11:27] [main/INFO] [Tickrate Changer]: Applying ASM to Minecraft methods...
+[14:11:27] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player683
+[14:11:33] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[14:11:33] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[14:11:35] [Client thread/INFO] [FML]: -- System Details --
 Details:
 	Minecraft Version: 1.12.2
 	Operating System: Windows 10 (amd64) version 10.0
 	Java Version: 1.8.0_212, Oracle Corporation
 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 169763120 bytes (161 MB) / 375914496 bytes (358 MB) up to 1875378176 bytes (1788 MB)
+	Memory: 159426416 bytes (152 MB) / 373293056 bytes (356 MB) up to 1875378176 bytes (1788 MB)
 	JVM Flags: 0 total; 
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
@@ -54,52 +55,99 @@ Details:
 TickrateChanger (TickrateChanger-1.0.14-deobf.jar)
   me.guichaguri.tickratechanger.TickrateTransformer
 	GL info: ' Vendor: 'Intel' Version: '4.6.0 - Build 26.20.100.7262' Renderer: 'Intel(R) HD Graphics 515'
-[21:51:34] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2847 Initialized
-[21:51:34] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[21:51:34] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[21:51:35] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
-[21:51:36] [Client thread/INFO] [FML]: Searching D:\repo\MuGenSlashBlade\run\.\mods for mods
-[21:51:38] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 243702400 nanos
-[21:51:39] [Client thread/INFO] [FML]: Forge Mod Loader has identified 7 mods to load
-[21:51:40] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, tickratechanger, flammpfeil.slashblade, mugenslashblade] at CLIENT
-[21:51:40] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, tickratechanger, flammpfeil.slashblade, mugenslashblade] at SERVER
-[21:51:41] [Client thread/ERROR] [FML]: An error occurred trying to load an EventBusSubscriber kim.certe.mugenslashblade.common.ItemRegister for modid mugenslashblade
-java.lang.NoClassDefFoundError: kim/certe/mugenslashblade/common/Item/ItemTheSeed
-	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:1.8.0_212]
-	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701) ~[?:1.8.0_212]
-	at java.lang.Class.privateGetPublicMethods(Class.java:2902) ~[?:1.8.0_212]
-	at java.lang.Class.getMethods(Class.java:1615) ~[?:1.8.0_212]
-	at net.minecraftforge.fml.common.eventhandler.EventBus.register(EventBus.java:82) ~[EventBus.class:?]
-	at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:82) [AutomaticEventSubscriber.class:?]
-	at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:614) [FMLModContainer.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_212]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_212]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_212]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_212]
-	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91) [guava-21.0.jar:?]
-	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150) [guava-21.0.jar:?]
-	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76) [guava-21.0.jar:?]
-	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) [guava-21.0.jar:?]
-	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71) [guava-21.0.jar:?]
-	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116) [guava-21.0.jar:?]
-	at com.google.common.eventbus.EventBus.post(EventBus.java:217) [guava-21.0.jar:?]
-	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219) [LoadController.class:?]
-	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197) [LoadController.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_212]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_212]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_212]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_212]
-	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91) [guava-21.0.jar:?]
-	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150) [guava-21.0.jar:?]
-	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76) [guava-21.0.jar:?]
-	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) [guava-21.0.jar:?]
-	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71) [guava-21.0.jar:?]
-	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116) [guava-21.0.jar:?]
-	at com.google.common.eventbus.EventBus.post(EventBus.java:217) [guava-21.0.jar:?]
-	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136) [LoadController.class:?]
-	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:595) [Loader.class:?]
-	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232) [FMLClientHandler.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:514) [Minecraft.class:?]
+[14:11:35] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2847 Initialized
+[14:11:35] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[14:11:35] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[14:11:36] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
+[14:11:36] [Client thread/INFO] [FML]: Searching D:\repo\MuGenSlashBlade\run\.\mods for mods
+[14:11:38] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 195456400 nanos
+[14:11:40] [Client thread/INFO] [FML]: Forge Mod Loader has identified 7 mods to load
+[14:11:40] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, tickratechanger, flammpfeil.slashblade, mugenslashblade] at CLIENT
+[14:11:40] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, tickratechanger, flammpfeil.slashblade, mugenslashblade] at SERVER
+[14:11:41] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Tickrate Changer, FMLFileResourcePack:SlashBlade, FMLFileResourcePack:MuGen SlashBlade
+[14:11:42] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[14:11:42] [Client thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[14:11:42] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[14:11:42] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[14:11:42] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[14:11:42] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[14:11:43] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[14:11:43] [Client thread/INFO] [FML]: OBJLoader: Domain flammpfeil.slashblade has been added.
+[14:11:43] [Client thread/INFO] [FML]: Applying holder lookups
+[14:11:43] [Client thread/INFO] [FML]: Holder lookups applied
+[14:11:43] [Client thread/INFO] [FML]: Applying holder lookups
+[14:11:43] [Client thread/INFO] [FML]: Holder lookups applied
+[14:11:43] [Client thread/INFO] [FML]: Applying holder lookups
+[14:11:43] [Client thread/INFO] [FML]: Holder lookups applied
+[14:11:43] [Client thread/INFO] [FML]: Applying holder lookups
+[14:11:43] [Client thread/INFO] [FML]: Holder lookups applied
+[14:11:43] [Client thread/INFO] [FML]: Injecting itemstacks
+[14:11:43] [Client thread/INFO] [FML]: Itemstack injection complete
+[14:11:48] [Sound Library Loader/INFO] [Tickrate Changer]: Patching sound system...
+[14:11:48] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[14:11:48] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[14:11:48] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:11:49] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[14:11:49] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[14:11:53] [Client thread/INFO] [FML]: OBJModel: A color has already been defined for material 'mat1' in 'flammpfeil.slashblade:models/item/sphere.mtl'. The color defined by key 'Ks' will not be applied!
+[14:11:53] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ns' (model: 'flammpfeil.slashblade:models/item/sphere.mtl') is not currently supported, skipping
+[14:11:53] [Client thread/INFO] [FML]: OBJModel: A color has already been defined for material 'mat2' in 'flammpfeil.slashblade:models/item/sphere.mtl'. The color defined by key 'Ks' will not be applied!
+[14:11:53] [Client thread/INFO] [FML]: OBJModel: A color has already been defined for material 'mat3' in 'flammpfeil.slashblade:models/item/sphere.mtl'. The color defined by key 'Ks' will not be applied!
+[14:11:54] [Client thread/INFO] [FML]: OBJModel: A color has already been defined for material 'mat1' in 'flammpfeil.slashblade:models/item/tiny.mtl'. The color defined by key 'Ks' will not be applied!
+[14:11:54] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ns' (model: 'flammpfeil.slashblade:models/item/tiny.mtl') is not currently supported, skipping
+[14:11:54] [Client thread/INFO] [FML]: OBJModel: A color has already been defined for material 'mat2' in 'flammpfeil.slashblade:models/item/tiny.mtl'. The color defined by key 'Ks' will not be applied!
+[14:11:54] [Client thread/INFO] [FML]: OBJModel: A color has already been defined for material 'mat3' in 'flammpfeil.slashblade:models/item/tiny.mtl'. The color defined by key 'Ks' will not be applied!
+[14:11:54] [Client thread/INFO] [FML]: OBJModel: A color has already been defined for material 'mat1' in 'flammpfeil.slashblade:models/block/soul.mtl'. The color defined by key 'Ks' will not be applied!
+[14:11:54] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ns' (model: 'flammpfeil.slashblade:models/block/soul.mtl') is not currently supported, skipping
+[14:11:54] [Client thread/INFO] [FML]: OBJModel: A color has already been defined for material 'mat2' in 'flammpfeil.slashblade:models/block/soul.mtl'. The color defined by key 'Ks' will not be applied!
+[14:11:54] [Client thread/INFO] [FML]: OBJModel: A color has already been defined for material 'mat3' in 'flammpfeil.slashblade:models/block/soul.mtl'. The color defined by key 'Ks' will not be applied!
+[14:11:54] [Client thread/INFO] [FML]: OBJModel: A color has already been defined for material 'mat1' in 'flammpfeil.slashblade:models/block/trapezohedron.mtl'. The color defined by key 'Ks' will not be applied!
+[14:11:54] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ns' (model: 'flammpfeil.slashblade:models/block/trapezohedron.mtl') is not currently supported, skipping
+[14:11:54] [Client thread/INFO] [FML]: OBJModel: A color has already been defined for material 'mat2' in 'flammpfeil.slashblade:models/block/trapezohedron.mtl'. The color defined by key 'Ks' will not be applied!
+[14:11:54] [Client thread/INFO] [FML]: OBJModel: A color has already been defined for material 'mat3' in 'flammpfeil.slashblade:models/block/trapezohedron.mtl'. The color defined by key 'Ks' will not be applied!
+[14:11:54] [Client thread/INFO] [FML]: OBJModel: A color has already been defined for material 'mat1' in 'flammpfeil.slashblade:models/block/sphere.mtl'. The color defined by key 'Ks' will not be applied!
+[14:11:54] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ns' (model: 'flammpfeil.slashblade:models/block/sphere.mtl') is not currently supported, skipping
+[14:11:54] [Client thread/INFO] [FML]: OBJModel: A color has already been defined for material 'mat2' in 'flammpfeil.slashblade:models/block/sphere.mtl'. The color defined by key 'Ks' will not be applied!
+[14:11:54] [Client thread/INFO] [FML]: OBJModel: A color has already been defined for material 'mat3' in 'flammpfeil.slashblade:models/block/sphere.mtl'. The color defined by key 'Ks' will not be applied!
+[14:11:54] [Client thread/INFO] [FML]: OBJModel: A color has already been defined for material 'mat1' in 'flammpfeil.slashblade:models/item/crystal.mtl'. The color defined by key 'Ks' will not be applied!
+[14:11:54] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ns' (model: 'flammpfeil.slashblade:models/item/crystal.mtl') is not currently supported, skipping
+[14:11:54] [Client thread/INFO] [FML]: OBJModel: A color has already been defined for material 'mat2' in 'flammpfeil.slashblade:models/item/crystal.mtl'. The color defined by key 'Ks' will not be applied!
+[14:11:54] [Client thread/INFO] [FML]: OBJModel: A color has already been defined for material 'mat3' in 'flammpfeil.slashblade:models/item/crystal.mtl'. The color defined by key 'Ks' will not be applied!
+[14:11:54] [Client thread/INFO] [FML]: OBJModel: A color has already been defined for material 'mat1' in 'flammpfeil.slashblade:models/block/ingot.mtl'. The color defined by key 'Ks' will not be applied!
+[14:11:54] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ns' (model: 'flammpfeil.slashblade:models/block/ingot.mtl') is not currently supported, skipping
+[14:11:54] [Client thread/INFO] [FML]: OBJModel: A color has already been defined for material 'mat2' in 'flammpfeil.slashblade:models/block/ingot.mtl'. The color defined by key 'Ks' will not be applied!
+[14:11:54] [Client thread/INFO] [FML]: OBJModel: A color has already been defined for material 'mat3' in 'flammpfeil.slashblade:models/block/ingot.mtl'. The color defined by key 'Ks' will not be applied!
+[14:11:54] [Client thread/INFO] [FML]: OBJModel: A color has already been defined for material 'mat1' in 'flammpfeil.slashblade:models/item/ingot.mtl'. The color defined by key 'Ks' will not be applied!
+[14:11:54] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ns' (model: 'flammpfeil.slashblade:models/item/ingot.mtl') is not currently supported, skipping
+[14:11:54] [Client thread/INFO] [FML]: OBJModel: A color has already been defined for material 'mat2' in 'flammpfeil.slashblade:models/item/ingot.mtl'. The color defined by key 'Ks' will not be applied!
+[14:11:54] [Client thread/INFO] [FML]: OBJModel: A color has already been defined for material 'mat3' in 'flammpfeil.slashblade:models/item/ingot.mtl'. The color defined by key 'Ks' will not be applied!
+[14:11:54] [Client thread/INFO] [FML]: OBJModel: A color has already been defined for material 'mat1' in 'flammpfeil.slashblade:models/block/tiny.mtl'. The color defined by key 'Ks' will not be applied!
+[14:11:54] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ns' (model: 'flammpfeil.slashblade:models/block/tiny.mtl') is not currently supported, skipping
+[14:11:54] [Client thread/INFO] [FML]: OBJModel: A color has already been defined for material 'mat2' in 'flammpfeil.slashblade:models/block/tiny.mtl'. The color defined by key 'Ks' will not be applied!
+[14:11:54] [Client thread/INFO] [FML]: OBJModel: A color has already been defined for material 'mat3' in 'flammpfeil.slashblade:models/block/tiny.mtl'. The color defined by key 'Ks' will not be applied!
+[14:11:54] [Client thread/INFO] [FML]: OBJModel: A color has already been defined for material 'mat1' in 'flammpfeil.slashblade:models/item/trapezohedron.mtl'. The color defined by key 'Ks' will not be applied!
+[14:11:54] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ns' (model: 'flammpfeil.slashblade:models/item/trapezohedron.mtl') is not currently supported, skipping
+[14:11:54] [Client thread/INFO] [FML]: OBJModel: A color has already been defined for material 'mat2' in 'flammpfeil.slashblade:models/item/trapezohedron.mtl'. The color defined by key 'Ks' will not be applied!
+[14:11:54] [Client thread/INFO] [FML]: OBJModel: A color has already been defined for material 'mat3' in 'flammpfeil.slashblade:models/item/trapezohedron.mtl'. The color defined by key 'Ks' will not be applied!
+[14:11:54] [Client thread/INFO] [FML]: OBJModel: A color has already been defined for material 'mat1' in 'flammpfeil.slashblade:models/item/soul.mtl'. The color defined by key 'Ks' will not be applied!
+[14:11:54] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ns' (model: 'flammpfeil.slashblade:models/item/soul.mtl') is not currently supported, skipping
+[14:11:54] [Client thread/INFO] [FML]: OBJModel: A color has already been defined for material 'mat2' in 'flammpfeil.slashblade:models/item/soul.mtl'. The color defined by key 'Ks' will not be applied!
+[14:11:54] [Client thread/INFO] [FML]: OBJModel: A color has already been defined for material 'mat3' in 'flammpfeil.slashblade:models/item/soul.mtl'. The color defined by key 'Ks' will not be applied!
+[14:11:54] [Client thread/INFO] [FML]: OBJModel: A color has already been defined for material 'mat1' in 'flammpfeil.slashblade:models/block/crystal.mtl'. The color defined by key 'Ks' will not be applied!
+[14:11:54] [Client thread/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ns' (model: 'flammpfeil.slashblade:models/block/crystal.mtl') is not currently supported, skipping
+[14:11:54] [Client thread/INFO] [FML]: OBJModel: A color has already been defined for material 'mat2' in 'flammpfeil.slashblade:models/block/crystal.mtl'. The color defined by key 'Ks' will not be applied!
+[14:11:54] [Client thread/INFO] [FML]: OBJModel: A color has already been defined for material 'mat3' in 'flammpfeil.slashblade:models/block/crystal.mtl'. The color defined by key 'Ks' will not be applied!
+[14:11:56] [Client thread/INFO] [FML]: Max texture size: 8192
+[14:11:57] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlas
+[14:12:00] [Client thread/ERROR] [FML]: Exception loading model for variant flammpfeil.slashblade:material#type=none for item "flammpfeil.slashblade:proudsoul", normal location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model flammpfeil.slashblade:item/material with loader VanillaLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:302) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:560) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_212]
@@ -114,112 +162,160 @@ java.lang.NoClassDefFoundError: kim/certe/mugenslashblade/common/Item/ItemTheSee
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_212]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
 	at GradleStart.main(GradleStart.java:25) [start/:?]
-Caused by: java.lang.ClassNotFoundException: kim.certe.mugenslashblade.common.Item.ItemTheSeed
-	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191) ~[launchwrapper-1.12.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_212]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_212]
-	... 49 more
-Caused by: java.lang.NullPointerException
-	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182) ~[launchwrapper-1.12.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_212]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_212]
-	... 49 more
-[21:51:41] [Client thread/INFO] [STDOUT]: [net.minecraft.init.Bootstrap:printToSYSOUT:629]: ---- Minecraft Crash Report ----
-// Uh... Did I do that?
-
-Time: 1/25/20 9:51 PM
-Description: There was a severe problem during mod loading that has caused the game to fail
-
-net.minecraftforge.fml.common.LoaderException: java.lang.NoClassDefFoundError: kim/certe/mugenslashblade/common/Item/ItemTheSeed
-	at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:89)
-	at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:614)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
-	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
-	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
-	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
-	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
-	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
-	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
-	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)
-	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
-	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
-	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
-	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
-	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
-	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
-	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
-	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)
-	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:595)
-	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232)
-	at net.minecraft.client.Minecraft.init(Minecraft.java:514)
-	at net.minecraft.client.Minecraft.run(Minecraft.java:422)
-	at net.minecraft.client.main.Main.main(Main.java:118)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
-	at GradleStart.main(GradleStart.java:25)
-Caused by: java.lang.NoClassDefFoundError: kim/certe/mugenslashblade/common/Item/ItemTheSeed
-	at java.lang.Class.getDeclaredMethods0(Native Method)
-	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
-	at java.lang.Class.privateGetPublicMethods(Class.java:2902)
-	at java.lang.Class.getMethods(Class.java:1615)
-	at net.minecraftforge.fml.common.eventhandler.EventBus.register(EventBus.java:82)
-	at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:82)
-	... 43 more
-Caused by: java.lang.ClassNotFoundException: kim.certe.mugenslashblade.common.Item.ItemTheSeed
-	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
-	... 49 more
-Caused by: java.lang.NullPointerException
-	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182)
-	... 51 more
-
-
-A detailed walkthrough of the error, its code path and all known details is as follows:
----------------------------------------------------------------------------------------
-
--- System Details --
-Details:
-	Minecraft Version: 1.12.2
-	Operating System: Windows 10 (amd64) version 10.0
-	Java Version: 1.8.0_212, Oracle Corporation
-	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 151124200 bytes (144 MB) / 510656512 bytes (487 MB) up to 1875378176 bytes (1788 MB)
-	JVM Flags: 0 total; 
-	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
-	FML: MCP 9.42 Powered by Forge 14.23.5.2847 7 mods loaded, 7 mods active
-	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
-
-	| State | ID                    | Version      | Source                           | Signature |
-	|:----- |:--------------------- |:------------ |:-------------------------------- |:--------- |
-	| LC    | minecraft             | 1.12.2       | minecraft.jar                    | None      |
-	| LC    | mcp                   | 9.42         | minecraft.jar                    | None      |
-	| LC    | FML                   | 8.0.99.99    | forgeSrc-1.12.2-14.23.5.2847.jar | None      |
-	| LC    | forge                 | 14.23.5.2847 | forgeSrc-1.12.2-14.23.5.2847.jar | None      |
-	| LC    | tickratechanger       | 1.0.14       | TickrateChanger-1.0.14-deobf.jar | None      |
-	| LC    | flammpfeil.slashblade | mc1.12-r19   | SlashBlade-mc1.12-r19-deobf.jar  | None      |
-	| LE    | mugenslashblade       | 0.0.1        | MuGenSlashBlade-1.0.jar          | None      |
-
-	Loaded coremods (and transformers): 
-TickrateChanger (TickrateChanger-1.0.14-deobf.jar)
-  me.guichaguri.tickratechanger.TickrateTransformer
-	GL info: ' Vendor: 'Intel' Version: '4.6.0 - Build 26.20.100.7262' Renderer: 'Intel(R) HD Graphics 515'
-[21:51:42] [Client thread/INFO] [STDOUT]: [net.minecraft.init.Bootstrap:printToSYSOUT:629]: #@!@# Game crashed! Crash report saved to: #@!@# D:\repo\MuGenSlashBlade\run\.\crash-reports\crash-2020-01-25_21.51.41-client.txt
+Caused by: java.io.FileNotFoundException: flammpfeil.slashblade:models/item/material.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:69) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:65) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:334) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.access$1400(ModelLoader.java:115) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:861) ~[ModelLoader$VanillaLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 20 more
+[14:12:00] [Client thread/ERROR] [FML]: Exception loading model for variant flammpfeil.slashblade:material#type=none for item "flammpfeil.slashblade:proudsoul", blockstate location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model flammpfeil.slashblade:material#type=none with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:296) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:560) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_212]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_212]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_212]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_212]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_212]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_212]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_212]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_212]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[ModelBlockDefinition.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 20 more
+[14:12:01] [Client thread/INFO] [FML]: Applying holder lookups
+[14:12:01] [Client thread/INFO] [FML]: Holder lookups applied
+[14:12:01] [Client thread/INFO] [Tickrate Changer]: Updating server tickrate to 20.0
+[14:12:01] [Client thread/INFO] [Tickrate Changer]: Updating client tickrate to 20.0
+[14:12:01] [Client thread/INFO] [FML]: Injecting itemstacks
+[14:12:01] [Client thread/INFO] [FML]: Itemstack injection complete
+[14:12:02] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 7 mods
+[14:12:02] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[14:12:02] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
+[14:12:02] [Client thread/ERROR] [FML.TEXTURE_ERRORS]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+[14:12:02] [Client thread/ERROR] [FML.TEXTURE_ERRORS]: The following texture errors were found.
+[14:12:02] [Client thread/ERROR] [FML.TEXTURE_ERRORS]: ==================================================
+[14:12:02] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:   DOMAIN minecraft
+[14:12:02] [Client thread/ERROR] [FML.TEXTURE_ERRORS]: --------------------------------------------------
+[14:12:02] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:   domain minecraft is missing 1 texture
+[14:12:02] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:     domain minecraft has 3 locations:
+[14:12:02] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       unknown resourcepack type net.minecraft.client.resources.DefaultResourcePack : Default
+[14:12:02] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       unknown resourcepack type net.minecraft.client.resources.LegacyV2Adapter : FMLFileResourcePack:Forge Mod Loader
+[14:12:02] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       unknown resourcepack type net.minecraft.client.resources.LegacyV2Adapter : FMLFileResourcePack:Minecraft Forge
+[14:12:02] [Client thread/ERROR] [FML.TEXTURE_ERRORS]: -------------------------
+[14:12:02] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:     The missing resources for domain minecraft are:
+[14:12:02] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/soul.png.png
+[14:12:02] [Client thread/ERROR] [FML.TEXTURE_ERRORS]: -------------------------
+[14:12:02] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:     No other errors exist for domain minecraft
+[14:12:02] [Client thread/ERROR] [FML.TEXTURE_ERRORS]: ==================================================
+[14:12:02] [Client thread/ERROR] [FML.TEXTURE_ERRORS]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+[14:12:05] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[14:12:12] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[14:12:12] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
+[14:12:12] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[14:12:12] [Server thread/INFO] [FML]: Applying holder lookups
+[14:12:12] [Server thread/INFO] [FML]: Holder lookups applied
+[14:12:13] [Server thread/INFO] [FML]: Loading dimension 0 (新的世界) (net.minecraft.server.integrated.IntegratedServer@74beaecd)
+[14:12:14] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 493 advancements
+[14:12:14] [Server thread/INFO] [FML]: Loading dimension -1 (新的世界) (net.minecraft.server.integrated.IntegratedServer@74beaecd)
+[14:12:14] [Server thread/INFO] [FML]: Loading dimension 1 (新的世界) (net.minecraft.server.integrated.IntegratedServer@74beaecd)
+[14:12:14] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[14:12:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 4%
+[14:12:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 40%
+[14:12:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 93%
+[14:12:18] [Server thread/INFO] [FML]: Unloading dimension -1
+[14:12:18] [Server thread/INFO] [FML]: Unloading dimension 1
+[14:12:18] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 8, from 10
+[14:12:24] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[14:12:24] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[14:12:24] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 7 mods : minecraft@1.12.2,FML@8.0.99.99,mugenslashblade@0.0.1,forge@14.23.5.2847,tickratechanger@1.0.14,flammpfeil.slashblade@mc1.12-r19,mcp@9.42
+[14:12:24] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[14:12:24] [Netty Local Client IO #0/INFO] [Tickrate Changer]: Updating server tickrate to 20.0
+[14:12:24] [Netty Local Client IO #0/INFO] [Tickrate Changer]: Updating client tickrate to 20.0
+[14:12:24] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[14:12:24] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player683[local:E:ef8567bf] logged in with entity id 472 at (-172.98141171371626, 67.0, 331.47616162218895)
+[14:12:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player683加入了游戏
+[14:12:26] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[14:12:26] [Netty Local Client IO #0/INFO] [Tickrate Changer]: Updating client tickrate to 20.0
+[14:12:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level '新的世界'/overworld
+[14:12:27] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 8 advancements
+[14:12:27] [pool-3-thread-1/WARN] [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@353c425[id=e10ba356-0952-343e-8ccb-a3b6e69bf75e,name=Player683,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:60) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:57) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:170) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:3182) [Minecraft.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:138) [SkinManager$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_212]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_212]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_212]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
+[14:12:28] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3466ms behind, skipping 69 tick(s)
+[14:12:30] [Client thread/WARN] [net.minecraft.client.renderer.texture.TextureManager]: Failed to load texture: flammpfeil.slashblade:model/named/fluorescentbar/fluorescentbar.png
+java.io.FileNotFoundException: flammpfeil.slashblade:model/named/fluorescentbar/fluorescentbar.png
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:69) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:65) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.texture.SimpleTexture.loadTexture(SimpleTexture.java:34) ~[SimpleTexture.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:69) [TextureManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.bindTexture(TextureManager.java:44) [TextureManager.class:?]
+	at net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer.bindTexture(TileEntitySpecialRenderer.java:60) [TileEntitySpecialRenderer.class:?]
+	at mods.flammpfeil.slashblade.client.model.BladeSpecialRender.render(BladeSpecialRender.java:47) [BladeSpecialRender.class:?]
+	at mods.flammpfeil.slashblade.client.model.BladeSpecialRender.render(BladeSpecialRender.java:34) [BladeSpecialRender.class:?]
+	at net.minecraftforge.client.ForgeHooksClient.renderTileItem(ForgeHooksClient.java:586) [ForgeHooksClient.class:?]
+	at net.minecraft.client.renderer.tileentity.TileEntityItemStackRenderer.renderByItem(TileEntityItemStackRenderer.java:121) [TileEntityItemStackRenderer.class:?]
+	at net.minecraft.client.renderer.tileentity.TileEntityItemStackRenderer.renderByItem(TileEntityItemStackRenderer.java:45) [TileEntityItemStackRenderer.class:?]
+	at net.minecraft.client.renderer.RenderItem.renderItem(RenderItem.java:147) [RenderItem.class:?]
+	at net.minecraft.client.renderer.RenderItem.renderItemModel(RenderItem.java:277) [RenderItem.class:?]
+	at net.minecraft.client.renderer.RenderItem.renderItem(RenderItem.java:258) [RenderItem.class:?]
+	at net.minecraft.client.renderer.ItemRenderer.renderItemSide(ItemRenderer.java:76) [ItemRenderer.class:?]
+	at net.minecraft.client.renderer.ItemRenderer.renderItemInFirstPerson(ItemRenderer.java:442) [ItemRenderer.class:?]
+	at net.minecraft.client.renderer.ItemRenderer.renderItemInFirstPerson(ItemRenderer.java:343) [ItemRenderer.class:?]
+	at net.minecraft.client.renderer.EntityRenderer.renderHand(EntityRenderer.java:826) [EntityRenderer.class:?]
+	at net.minecraft.client.renderer.EntityRenderer.renderWorldPass(EntityRenderer.java:1492) [EntityRenderer.class:?]
+	at net.minecraft.client.renderer.EntityRenderer.renderWorld(EntityRenderer.java:1312) [EntityRenderer.class:?]
+	at net.minecraft.client.renderer.EntityRenderer.updateCameraAndRender(EntityRenderer.java:1115) [EntityRenderer.class:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1209) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:442) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_212]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_212]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_212]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_212]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_212]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_212]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_212]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_212]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+[14:12:56] [Server thread/INFO] [Tickrate Changer]: Updating server tickrate to 10.0
+[14:12:56] [Netty Local Client IO #0/INFO] [Tickrate Changer]: Updating client tickrate to 10.0
+[14:12:56] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Tickrate successfully changed to 10.0
+[14:13:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] minecraft:absorption, minecraft:blindness, minecraft:fire_resistance, minecraft:glowing, minecraft:haste, minecraft:health_boost, minecraft:hunger, minecraft:instant_damage, minecraft:instant_health, minecraft:invisibility, minecraft:jump_boost, minecraft:levitation, minecraft:luck, minecraft:mining_fatigue, minecraft:nausea, minecraft:night_vision, minecraft:poison, minecraft:regeneration, minecraft:resistance, minecraft:saturation, minecraft:slowness, minecraft:speed, minecraft:strength, minecraft:unluck, minecraft:water_breathing, minecraft:weakness, minecraft:wither
