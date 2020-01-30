@@ -2,7 +2,6 @@ package kim.certe.mugenslashblade.common.sa;
 
 
 import kim.certe.mugenslashblade.common.potion.PotionLoader;
-import kim.certe.mugenslashblade.common.potion.PotionTheWorld;
 import mods.flammpfeil.slashblade.ability.StylishRankManager;
 import mods.flammpfeil.slashblade.item.ItemSlashBlade;
 import mods.flammpfeil.slashblade.specialattack.SpecialAttackBase;
@@ -21,8 +20,6 @@ public class SATheWorld extends SpecialAttackBase {
 
     private static final int NO_COST_DAMAGE = 10;
 
-    private int CHARGE_TIME = 60;
-
     @Override
     public String toString() {
         return "theworld";
@@ -40,7 +37,8 @@ public class SATheWorld extends SpecialAttackBase {
             if(!ItemSlashBlade.ProudSoul.tryAdd(tag,cost,false)){
                 ItemSlashBlade.damageItem(stack, 10, player);
             }
-            player.addPotionEffect(new PotionEffect(PotionLoader.theWorld, 1200, 1));
+            player.addPotionEffect(new PotionEffect(PotionLoader.theWorld, 200, 2));
+            // TickrateAPI.changeServerTickrate(5);
         }
         ItemSlashBlade.setComboSequence(tag, ItemSlashBlade.ComboSequence.SlashEdge);
     }

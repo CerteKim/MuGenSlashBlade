@@ -18,7 +18,6 @@ import org.apache.logging.log4j.Logger;
         useMetadata = true,
         dependencies = "required-after:flammpfeil.slashblade"
 )
-
 public class MuGenSlashBlade {
     public static final String MODID = "mugenslashblade";
     public static final String NAME = "MuGen SlashBlade";
