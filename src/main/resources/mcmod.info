@@ -1,0 +1,16 @@
+[
+{
+  "modid": "mugenslashblade",
+  "name": "MuGen SlashBlade",
+  "description": "Project Endless Dream",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://certe.kim/",
+  "updateUrl": "https://certe.kim/",
+  "authorList": ["Certe Kim"],
+  "credits": "Certe Kim",
+  "logoFile": "assets/mugenslashblade/logo.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]
